@@ -34,7 +34,7 @@ resource "aws_instance" "test-4" {
   }
 }
 
-resource "aws_instance" "test-4" {
+resource "aws_instance" "test-5" {
   ami           = "ami-0dfcb1ef8550277af"
   instance_type = "t2.micro"
 
@@ -43,7 +43,7 @@ resource "aws_instance" "test-4" {
   }
 }
 
-resource "aws_instance" "test-4" {
+resource "aws_instance" "test-6" {
   ami           = "ami-0dfcb1ef8550277af"
   instance_type = "t2.micro"
 
@@ -51,7 +51,7 @@ resource "aws_instance" "test-4" {
     Name = "micheal"
   }
 }
-resource "aws_instance" "test-4" {
+resource "aws_instance" "test-7" {
   ami           = "ami-0dfcb1ef8550277af"
   instance_type = "t2.micro"
 
