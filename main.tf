@@ -27,9 +27,9 @@ resource "aws_instance" "test-3" {
 
 resource "aws_instance" "test-4" {
   ami           = "ami-0dfcb1ef8550277af"
-  instance_type = "love"
+  instance_type = "t2.micro"
 
   tags = {
-    Name = "happiness"
+    Name = "love-happiness"
   }
 }
