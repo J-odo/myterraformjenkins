@@ -30,6 +30,32 @@ resource "aws_instance" "test-4" {
   instance_type = "t2.micro"
 
   tags = {
-    Name = "love-happiness"
+    Name = "happiness"
+  }
+}
+
+resource "aws_instance" "test-4" {
+  ami           = "ami-0dfcb1ef8550277af"
+  instance_type = "t2.micro"
+
+  tags = {
+    Name = "love"
+  }
+}
+
+resource "aws_instance" "test-4" {
+  ami           = "ami-0dfcb1ef8550277af"
+  instance_type = "t2.micro"
+
+  tags = {
+    Name = "micheal"
+  }
+}
+resource "aws_instance" "test-4" {
+  ami           = "ami-0dfcb1ef8550277af"
+  instance_type = "t2.micro"
+
+  tags = {
+    Name = "riri"
   }
 }
